@@ -28,20 +28,20 @@ public:
   }
 
 private:
-  T sum{0};
-  int num{0};
+  T sum { 0 };
+  int num { 0 };
 };
 
 int main()
 {
-  std::vector<double> myVec {1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 9.9};
+  std::vector<double> myVec { 1.1, 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 9.9 };
   auto vecInfo = std::for_each(myVec.begin(), myVec.end(), Iterator<double>());
 
   std::cout << vecInfo.getSum() << std::endl; // 49
   std::cout << vecInfo.getSize() << std::endl; // 9
   std::cout << vecInfo.getMean() << std::endl; // 5.5
 
-  std::array<int, 100> myArr {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  std::array<int, 100> myArr { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
   auto arrInfo = std::for_each(myArr.begin(), myArr.end(), Iterator<int>());
 
   std::cout << arrInfo.getSum() << std::endl; // 55
