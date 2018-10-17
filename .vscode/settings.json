@@ -51,6 +51,7 @@
     "unordered_map": "cpp",
     "fstream": "cpp",
     "optional": "cpp",
-    "sstream": "cpp"
+    "sstream": "cpp",
+    "condition_variable": "cpp"
   }
 }
