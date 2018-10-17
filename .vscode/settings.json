@@ -52,6 +52,9 @@
     "fstream": "cpp",
     "optional": "cpp",
     "sstream": "cpp",
-    "condition_variable": "cpp"
+    "condition_variable": "cpp",
+    "atomic": "cpp",
+    "future": "cpp",
+    "mutex": "cpp"
   }
 }
