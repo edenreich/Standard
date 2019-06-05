@@ -4,4 +4,4 @@ This repository is for practicing and learning purposes.
 
 ## Build
 
-Simply run `g++ [example].cpp -o example && ./example`
+Simply run `g++ [example].cpp -o bin/example && ./bin/example`
