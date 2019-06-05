@@ -1,2 +1,5 @@
+# IDE's configurations
+.vscode
+
 # Ignore executeable files
 *.exe
