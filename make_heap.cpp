@@ -32,7 +32,7 @@ int main()
  
     // Bring the highest size of the collection to the end
     std::cout << "Collection after pop_heap: ";
-    for (auto el : collection)
+    for (auto const & el : collection)
     {
         std::cout << el << ' ';
     }
