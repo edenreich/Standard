@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
 
     std::set_intersection(std::begin(collection1), std::end(collection1), std::begin(collection2), std::end(collection2), std::back_inserter(intersectedCollection));
 
-    std::cout << "After merge: " << '\n';
+    std::cout << "After intersection: " << '\n';
     
     for (auto const & el : intersectedCollection)
     {
